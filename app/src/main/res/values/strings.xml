@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">Shiori</string>
+    <string name="app_name">Shio Re:</string>
     <string name="action_settings">Settings</string>
+    <string name="tab1">表紙</string>
+    <string name="tab2">人</string>
+    <string name="tab3">もちもの</string>
+    <string name="tab4">21日</string>
+    <string name="tab5">22日</string>
+    <string name="tab6">23日</string>
+    <string name="tab7">お店</string>
+    <string name="tab8">ホテル</string>
+    <string name="tab9">日記</string>
+    <string name="anyStringValue">anyStringValue</string>
+
 </resources>

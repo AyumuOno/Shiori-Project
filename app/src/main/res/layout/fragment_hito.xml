@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backcontainer"
+    >
+
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/ayumu" android:id="@+id/ayumu"
+                android:layout_alignParentTop="true" android:layout_marginTop="105dp"
+                android:layout_alignParentStart="true"
+        />
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/kanako" android:id="@+id/kanako"
+                android:layout_alignParentEnd="true" android:layout_marginTop="406dp"
+                android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp" android:layout_marginBottom="0dp" android:layout_marginEnd="0dp"/>
+        <TextView
+                android:text="Tab1"
+                android:layout_width="79dp"
+                android:id="@+id/textView" tools:text="Tab1" android:layout_height="49dp"
+                android:layout_alignParentStart="true" android:layout_marginStart="165dp"
+                android:layout_alignParentEnd="true" android:layout_marginEnd="166dp"
+                android:layout_alignParentBottom="true" android:layout_marginBottom="606dp"
+                android:layout_marginTop="76dp" android:layout_alignParentTop="true" android:textStyle="bold"
+                android:textSize="30sp" android:textAlignment="center"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
