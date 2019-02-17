@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--21日-->
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" android:id="@+id/linearLayoutCompat4"
+        tools:context=".fav_frag4">
+
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="456dp"
+                    android:layout_height="878dp" app:srcCompat="@drawable/backcontainer"
+                    android:id="@+id/imageView8"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.484" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+            />
+            <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="877dp" app:srcCompat="@drawable/timeline"
+                    android:id="@+id/imageView9"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.194"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0"/>
+            <ImageView
+                    android:layout_width="410dp"
+                    android:layout_height="0dp" app:srcCompat="@drawable/plan1" android:id="@+id/imageView7"
+                    android:scaleType="fitCenter" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view"
+                    android:layout_width="60dp"
+                    android:layout_height="61dp"
+                    app:lottie_rawRes="@raw/favourite_app_icon"
+                    app:lottie_loop="false"
+                    app:lottie_autoPlay="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="1dp" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.217"
+                    app:layout_constraintVertical_bias="0.412" tools:ignore="MissingConstraints"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
