@@ -1,6 +1,8 @@
 package com.example.shiori
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
@@ -10,6 +12,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.google.android.gms.maps.SupportMapFragment
+import kotlinx.android.synthetic.main.fragment_tab_4.*
+import kotlinx.android.synthetic.main.fragment_tab_8.*
 
 class Tab01Fragment: Fragment(){
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -30,8 +35,23 @@ class Tab03Fragment: Fragment(){
 }
 
 class Tab04Fragment: Fragment(){
+    //private var clickedFav = false
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+//        animation_view.setOnClickListener(object : View.OnClickListener {
+//            override fun onClick(v : View?) {
+//                if (clickedFav) {
+//                    // setProgress(0f)でアニメーション開始前状態にします。
+//                    animation_view.setProgress(0f);
+//                    clickedFav = false;
+//                } else {
+//                    animation_view.playAnimation();
+//                    clickedFav = true;
+//                }
+//            }
+//        })
         return inflater.inflate(R.layout.fragment_tab_4,container,false)
+
+
     }
 }
 
@@ -57,6 +77,7 @@ class Tab08Fragment: Fragment(){
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_tab_8,container,false)
     }
+
 }
 
 

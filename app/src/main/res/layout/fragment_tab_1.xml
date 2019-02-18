@@ -13,7 +13,7 @@
             android:layout_height="match_parent" android:layout_weight="0">
 
         <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent" app:srcCompat="@drawable/tree" android:id="@+id/imageView2"
                 android:scaleType="fitXY"
                 android:layout_marginTop="0dp" android:layout_alignParentTop="true"
@@ -26,6 +26,20 @@
                 android:layout_alignParentEnd="true" android:layout_marginEnd="0dp" android:layout_marginTop="691dp"
                 android:layout_alignParentTop="true" android:layout_alignParentStart="true"
                 android:layout_marginStart="269dp"/>
+        <ImageView
+                android:layout_width="259dp"
+                android:layout_height="563dp" app:srcCompat="@drawable/ayumu3" android:id="@+id/imageView20"
+                android:layout_alignParentBottom="true" android:layout_marginBottom="12dp"
+                android:layout_alignParentEnd="true" android:layout_marginEnd="313dp" android:layout_marginTop="385dp"
+                android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"/>
+        <ImageView
+                android:layout_width="199dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/kana3" android:id="@+id/imageView21"
+                android:layout_marginTop="390dp" android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" android:layout_marginStart="155dp"
+                android:layout_alignParentBottom="true" android:layout_marginBottom="96dp"
+        />
 
     </RelativeLayout>
 
