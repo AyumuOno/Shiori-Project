@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--表紙-->
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" android:id="@+id/linearLayoutCompat3">
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"
+            app:layout_constraintVertical_bias="0.501" android:scrollbarStyle="outsideInset"
+            style="@android:style/Widget.Holo.ScrollView">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:orientation="vertical" android:gravity="top|left|end">
+            <CheckBox
+                    android:text="洋服"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox6" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.777"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"/>
+
+
+            <TextView
+                    android:text="上着、下着、靴下、インナー、パジャマ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+            <CheckBox
+                    android:text="カメラ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox5" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.652"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+
+            <TextView
+                    android:text="充電器、SDカード、レンズ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+
+            <CheckBox
+                    android:text="スマホ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox3" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.411"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+
+            <TextView
+                    android:text="充電コード、アダプター、モバイルバッテリー"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView5"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+
+            <CheckBox
+                    android:text="お財布"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox4" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.535"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+
+            <TextView
+                    android:text="クレカ、現金、身分証明書、学割証"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView6"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+
+            <CheckBox
+                    android:text="携帯セット"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.184"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+
+            <TextView
+                    android:text="リップ、ティッシュ、ハンカチ、目薬"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView7"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+
+
+            <CheckBox
+                    android:text="美容セット"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox7" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.903"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+
+            <TextView
+                    android:text="化粧水、乳液、クリープ、髭剃り、化粧品"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView8"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+
+
+            <CheckBox
+                    android:text="お風呂セット"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox2" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.294"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+
+            <TextView
+                    android:text="タオル、シャンプー、リンス、洗顔、ボディーソープ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView9"
+                    android:layout_marginStart="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"/>
+
+
+            <CheckBox
+                    android:text="筆記用具"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox8" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.294"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:lineSpacingExtra="14sp"
+                    android:textAlignment="viewStart" android:textSize="30sp"
+                    style="@android:style/Widget.Holo.CompoundButton.CheckBox" android:clickable="true"
+                    android:duplicateParentState="true" android:visibility="visible"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
